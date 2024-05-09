@@ -8,6 +8,6 @@ fpm build --profile release --flag "-fno-range-check"
 ```
 To build and run the project use:
 ```bash
-fpm build --profile release --flag "-fno-range-check"
+fpm run --profile release --flag "-fno-range-check"
 ```
 
