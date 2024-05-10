@@ -11,7 +11,7 @@ module ball
 contains
         subroutine draw_ball(position)
                 integer, intent(in) :: position(2)
-                call draw_circle(position(1), position(2), 50.0, RED)
+                call draw_circle(position(1), position(2), 50.0, BLUE)
         end subroutine draw_ball
         
         subroutine move_ball(position, miss_counter)
